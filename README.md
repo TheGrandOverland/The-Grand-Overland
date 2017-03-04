@@ -1,5 +1,4 @@
 # GOD-Website TESTING BRANCH
-And now back
 ### Contents
 Website files for the GOD website.
 
