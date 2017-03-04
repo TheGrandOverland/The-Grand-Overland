@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>The Grand Overland</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel='stylesheet prefetch' href='css/oswald.css'>
+		<link rel='stylesheet prefetch' href='css/ptsans.css'>
+		<link rel='stylesheet prefetch' href='css/font-awesome/css/font-awesome.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	</head>
+	<body>
+		<!--Firebase Iitialization -->
+		<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+			  apiKey: "AIzaSyCAtT4e2WRRld6_091JmB9PxA0TLKJuhJ0",
+			  authDomain: "grand-overland-website.firebaseapp.com",
+			  databaseURL: "https://grand-overland-website.firebaseio.com",
+			  storageBucket: "grand-overland-website.appspot.com",
+			};
+			firebase.initializeApp(config);
+		</script>
+		<!-- Google Web Fonts -->
+		<link href='css/oswald.css' rel='stylesheet' type='text/css'>
+		<link href='css/ptsans.css' rel='stylesheet' type='text/css'>
+		<body onload="UnID.forEach(update);" id="body1">
+			<script>document.body.style.display = "none";</script>
+			<!-- Header: begins -->
+			<header id="header">
+				<!-- Centered Wrapper: begins -->
+				<div class="centered-wrapper">
+					<!-- Logo: begins -->
+					<div id="logo">  
+						<span class="logo">Grand Overland District</span> 
+					</div>
+					<div id="logosm">  
+						<span class="logo">G.O.D.</span> 
+					</div>
+					<!-- Logo: ends -->
+					<!-- Menu Icon: begins -->
+					<div class="menu-icon"></div>
+					<!-- Menu Icon: ends -->
+					<!-- Navigation: begins -->
+					<nav id="navigation">
+						<!-- Main Navigation: begins -->
+						<ul id="mainnav">
+							<li><a href="#About"><span>Home</span></a></li>
+							<li><a href="Pages/activities/index.html"><span>Activities</span></a></li>
+							<li><a href="#Services"><span>Event Registration</span></a></li>
+							<li><a href="#Contact"><span>Info</span></a></li>
+						</ul>
+						<!-- Main Navigation: ends -->
+					</nav>
+					<!-- Navigation: ends -->
+				</div>
+				<!-- Centered Wrapper: eds -->
+			</header>
+			<!-- Header: ends -->  
+			<!-- Overlays--> 
+			<div id="Button 1 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver()">×</a>
+				<div id="Button 1 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<div id="Button 2 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver2()">×</a>
+				<div id="Button 2 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<div id="Button 3 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver3()">×</a>
+				<div id="Button 3 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<div id="Button 4 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver4()">×</a>
+				<div id="Button 4 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<div id="Button 5 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver5()">×</a>
+				<div id="Button 5 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<div id="Button 6 Linko" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOver6()">×</a>
+				<div id="Button 6 Link" class="overlay-content">
+					<p style="color: white;">Loading...</p>
+				</div>
+			</div>
+			<!--Overlays End-->
+			<!--Wrapper: begins -->
+			<div id="wrapper">
+				<!-- Section: begins -->
+				<section id="About" style="text-align: justify;" class="section darker">
+					<!-- Double Space: begins -->
+					<div class="double-space"></div>
+					<!-- Double Space: ends -->
+					<!-- Centered Wrapper: begins -->
+					<div class="card transition">
+						<h21 class="transition">Home</h21>
+						<div class="slides_container">
+							<div id="FirstImage"></div>
+						</div>
+						<div id="maintextholder">
+							<p3 id="About Main">Loading...
+							</p3>
+						</div>
+					</div>
+					<div class="centered-wrapper">
+						<!--			<h1>Home</h1> -->
+						<h2 id="Main Quote">Quote.jpg</h2>
+					</div>
+					<div style=" max-width: 100%;
+						padding: 1em;
+						text-align: center;">
+						<a id="GalleryMain" class="ag" href="https://photos.google.com/share/AF1QipOerbwD2CHkhaRlIv7XbPi45lvnT-lwNvsP1_CsV8P72qUMyN7PFHxnRFOSKLmjDg?key=eDN6VVpVdlY4Y2RUNE41OUNSendRSzBZLTlDWmFn" target="_blank">Visit Our Gallery</a>
+					</div>
+					<!-- Web Analytics Go Here!!!-->
+					<script>
+						(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+						m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+						
+						ga('create', 'UA-82133121-1', 'auto');
+						ga('send', 'pageview');
+						
+					</script>
+					<div class="single-space">
+					</div>
+					<!-- Centered Wrapper: eds -->
+				</section>
+				<!-- Section: ends -->
+				<!-- Section: begins -->  
+				<section id="Services" class="section lighter">
+					<!-- Double Space: begins -->
+					<div class="double-space"></div>
+					<!-- Double Space: ends -->
+					<!-- Centered Wrapper: begins -->
+					<div class="centered-wrapper">
+						<h1 class="box">Event Registration</h1>
+						<h2 class="box">
+							To learn more and register for trail rides, click below.
+						</h2>
+						<div class="box1holder">
+							<h1 id="Button 1" style="cursor:pointer" onclick="openOver()" class="box1">Loading...</h1>
+						</div>
+						<div class="box1holder">
+							<h1 id="Button 2" style="cursor:pointer" onclick="openOver2()" class="box1">Loading...</h1>
+						</div>
+						<div class="box1holder">
+							<h1 id="Button 3" style="cursor:pointer" onclick="openOver3()" class="box1">Loading...</h1>
+						</div>
+						<div class="box1holder">
+							<h1 id="Button 4" style="cursor:pointer" onclick="openOver4()" class="box1">Loading...</h1>
+						</div>
+						<div class="box1holder">
+							<h1 id="Button 5" style="cursor:pointer" onclick="openOver5()" class="box1">Loading...</h1>
+						</div>
+						<div class="box1holder">
+							<h1 id="Button 6" style="cursor:pointer" onclick="openOver6()" class="box1">Loading...</h1>
+						</div>
+					</div>
+					<!-- Centered Wrapper: ends -->
+					<!-- Double Space: begins -->
+					<div class="double-space"></div>
+					<!-- Double Space: ends -->
+				</section>
+				<!-- Section: ends -->
+				<!-- Section: begins -->  
+				<section id="Contact" class="section darker">
+					<!-- Centered Wrapper: begins -->
+					<div class="centered-wrapper">
+						<h1>Information</h1>
+						<h2>
+							G.O.D. is conveniently located in the "Heart of the Uwharrie Mountains”, Eldorado, North Carolina.  It’s just 5 minutes from the Eldorado Outpost where country food, camping and outdoor equipment abound, 10 minutes North of Troy, and 30 minutes South of Asheboro. Training and OHV Trail Rides leave from the Uwharrie Off-Road Training Center <strong>(4026 NC-109, Troy, NC 27371)</strong>. Other nearby attractions are the Uwharrie Nat’l Forest, N.C. Zoo, Badin Lake, Seagrove Pottery, Richard Petty Museum, N.C. Aviation Museum, and many more to fill your weekend. 
+						</h2>
+						<div class="box">
+							<div class="single-space"></div>
+							<div class="allin1">
+								<div id="CoInfo" class="container expand">
+									<div class="content">
+										<div class="head">
+											<br>
+											<h1>Contact Info</h1>
+										</div>
+										<div class="body">
+											<p2>
+												Grand Overland District<br>
+												Montgomery County NC 27371<br>
+												Ron & Julie Parrish<br>
+												Phone:<br>
+												<a href="1(336)-521-4949">(336)-521-4949</a><br>
+												<hr>
+												Email Address:<br>
+												<a href="mailto:GrandOverland@gmail.com" target="_blank">GrandOverland@gmail.com</a>
+												<hr>
+												<br>
+												<strong>If you're interested in reserving G.O.D. property or have questions, feel free to contact us!</strong>
+												<hr>
+											</p2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-space">
+							</div>
+							<!-- Double Space: begins -->
+							<div class="single-space"></div>
+							<!-- Double Space: ends -->
+							<nav1 class="container1">
+								<a class="fb" href="https://www.facebook.com/GrandOverlandDistrict/" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a class="tw" href="mailto:grandoverland@gmail.com" target="_top"><i class="fa fa-envelope-o"></i></a>
+								<a class="gp" href="http://eepurl.com/cbdpxf" target="_blank"><i class="fa fa-paper-plane"></i></a>
+								<a class="ig" href="https://www.google.com/maps/place/Uwharrie+Off-Road+Training+Center,+LLC/@35.4466838,-80.0206571,680m/data=!3m1!1e3!4m5!3m4!1s0x0:0x2894b6eb78dfee4c!8m2!3d35.4463939!4d-80.0197269" target="_blank"><i class="fa fa-map-marker"></i></a>
+							</nav1>
+						</div>
+					</div>
+					<!-- Centered Wrapper: ends -->
+					<!-- Double Space: begins -->
+					<div class="double-space"></div>
+					<!-- Double Space: ends -->
+					<!-- Footer -->
+					<footer>
+						<div class="container text-center">
+							<div class="row">
+								<div class="col-lg-12">
+									Copyright &copy; The Grand Overland District 2016 <br>
+									Website Developed by <a href="mailto:SethParrish@outlook.com" target="_blank">Seth Parrish</a>
+								</div>
+							</div>
+						</div>
+					</footer>
+					<!-- / Footer -->
+				</section>
+				<!-- Section: ends -->
+			</div>
+			<!-- Wrapper Ends -->
+	</body>
+	<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"bcf7e0c9fff1455da75692656","lid":"90d1abebea"}) })</script>
+	<script src='js/jquery.min.js'></script>
+	<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+########################
+#                      #
+# General Instructions #
+#                      #
+########################
+
+	To Deploy:
+	  In the Folder with Firebase, hold shift and right click, then start command prompt here
+	  In command prompt window, type:  "firebase deploy"   then hit Enter. 
+	  (that should deploy the public folder and put the code up).
+
+	-----------------------------------------------------
+
+	To Make changes to buttons.
+	Open Firebase console, click link: (can type firebase in URL, go to Grand-Overland..., database, Text block)
+	    	https://console.firebase.google.com/project/grand-overland-website/database/data/
+
+		open Text Block, click on +
+
+			Replace data and links as needed.  Remember to hit ENTER after entering data.
+
+	Close firebase tab.
+
+########################
+#                      #
+#   Manual Changelog   #
+#                      #
+########################
+
+3/2/17
+	Added Link to gallery:
+		https://photos.google.com/share/AF1QipOerbwD2CHkhaRlIv7XbPi45lvnT-lwNvsP1_CsV8P72qUMyN7PFHxnRFOSKLmjDg?key=eDN6VVpVdlY4Y2RUNE41OUNSendRSzBZLTlDWmFn
+
+		https://goo.gl/photos/sbNdgKHHqyNokyqCA
+====================================
+
+2/27/17
+	Changed Button one to read  "Select Your Ride Date Below to Register"
+
+	Change link to 'https://thegrandoverland.com', instead of 'https://form.jotform.com/63565155057156'
+-----------------------------------------------
+Changes for the 2/4/16 ride
+	BEST to use Jot form long url in web site: https://form.jotform.com/63565155057156' id='iframe1
+
+	link to Jot form https://goo.gl/RgPxcA
+
+======================================
+Changes for 11/12/16 ride buttons
+
+	Change button 2 to jotform instead of google form (limited responses for free, then $20/mo)
+	jotform.com, grandoverland, RideForm16
+
+	original
+	"<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSevN5uxT-MmMF8BuDaEj5KPOHy5VFHErfGEInhecHZ7nLPujw/viewform?embedded=true' id='iframe2'>Loading (Second Link)...</iframe>"
+
+	Link to jotform:
+	https://form.jotform.com/62840130352142
+
+
+	Change http section to :
+	"<iframe src='https://form.jotform.com/62840130352142' id='iframe2'>Loading (Second Link)...</iframe>"
+
+=====================================
+1/2/17
+	Added to button 2
+	March 11 Jeep of Faith ride link
+	https://form.jotform.com/63607933278162
+
+1/6/17 Change date to April 22, 2017
+
+======================
+1/7/17 removed JOF 4/22/17 and added 3/4/17 DnD
+
+===============
