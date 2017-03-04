@@ -4,9 +4,9 @@
 Website files for the GOD website.
 
 ### Collaborators
-  -Seth H. Parrish
-  -Ron Parrish
-  -Julie Parrish
+  * Seth H. Parrish
+  * Ron Parrish
+  * Julie Parrish
   
 ### Last Updated
-#### 3-3-17
+#### * 3-3-17
