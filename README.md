@@ -1,12 +1,12 @@
-## GOD-Website
+# GOD-Website
 
-# Contents
+### Contents
 Website files for the GOD website.
 
-# Collaborators
+### Collaborators
   -Seth H. Parrish
   -Ron Parrish
   -Julie Parrish
   
-## Last Updated
-# 3-3-17
+### Last Updated
+#### 3-3-17
