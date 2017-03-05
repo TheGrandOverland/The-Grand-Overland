@@ -24,6 +24,15 @@
 	Turn off Buttons:
 		Replace the button name with the keyword: "none".
 		To undo this, change name to anything else and refresh page.
+		
+	Github Instructions:
+		Access App
+			History tab shows changelog
+			Changes tab shows changes not commited on local machine
+			
+			After making changes type Summary and click Commit then Sync.
+				Description Optional.
+			Its on the web.
 
 ########################
 #                      #
