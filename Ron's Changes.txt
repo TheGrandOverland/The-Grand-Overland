@@ -72,3 +72,7 @@ Changes for 11/12/16 ride buttons
 1/7/17 removed JOF 4/22/17 and added 3/4/17 DnD
 
 ===============
+
+3-5-17
+Connected to github. Thanks Seth
+================
