@@ -1,4 +1,4 @@
-# GOD-Website 1.0.0
+# GOD-Website 1.0.1
 ### Contents
 Website files for the GOD website.
 
