@@ -218,7 +218,7 @@ p3 {
     background-color: #FFA726;
     transition: background-color .5s ease;
 }
-.allin1 .button, .allin1 h1 {
+.contactcard .button, .contactcard h1 {
     line-height: 60px;
     font-weight: 700;
 }
@@ -284,7 +284,7 @@ p3 {
     top: 30px;
     cursor: pointer;
 }
-.allin1 body {
+.contactcard body {
     font-family: Roboto, sans-serif;
     width: 100%;
     margin: 0;
@@ -292,31 +292,31 @@ p3 {
     color: #FFF;
     background: #FAFAFA;
 }
-.allin1 h1 {
+.contactcard h1 {
     font-size: 50px;
     margin: -10px 0 0;
     padding: 0 20px;
 }
-.allin1 p {
+.contactcard p {
     font-size: 16px;
     padding: 0 20px;
     color: #000;
 }
-.allin1 em {
+.contactcard em {
     font-style: normal;
     color: #FFC400;
 }
-.allin1 a {
+.contactcard a {
     font-style: normal;
     color: #AB47BC;
     text-decoration: underline;
     padding-right: 10px;
     cursor: pointer;
 }
-.allin1 .sub {
+.contactcard .sub {
     margin: 0;
 }
-.allin1 .button {
+.contactcard .button {
     cursor: pointer;
     width: 60px;
     height: 60px;
@@ -327,7 +327,7 @@ p3 {
     -webkit-transition: all .7s cubic-bezier(.4, 0, .2, 1);
     transition: all .7s cubic-bezier(.4, 0, .2, 1);
 }
-.allin1 .container, .allin1 .container.expand {
+.contactcard .container, .contactcard .container.expand {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .17);
     border-radius: 0;
     width: 80%;
@@ -335,13 +335,13 @@ p3 {
     max-width: 600px;
     padding: 0;
 }
-.allin1 .expand .button {
+.contactcard .expand .button {
     -webkit-transform: rotate(630deg);
     transform: rotate(630deg);
     -webkit-transition: all .5s cubic-bezier(.4, 0, .2, 1);
     transition: all .5s cubic-bezier(.4, 0, .2, 1);
 }
-.allin1 .container {
+.contactcard .container {
     position: inherit;
     margin: auto;
     left: 0;
@@ -351,11 +351,11 @@ p3 {
     -webkit-transition: all .2s, max-width .2s cubic-bezier(.4, 0, .2, 1) .1s, height .3s ease .25s;
     transition: all .2s, max-width .2s cubic-bezier(.4, 0, .2, 1) .1s, height .3s ease .25s;
 }
-.allin1 .container.expand {
+.contactcard .container.expand {
     -webkit-transition: all .2s, max-width .2s cubic-bezier(.4, 0, .2, 1) .1s, height .3s ease .25s;
     transition: all .2s, max-width .2s cubic-bezier(.4, 0, .2, 1) .1s, height .3s ease .25s;
 }
-.allin1 .content {
+.contactcard .content {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     width: 100%;
@@ -366,7 +366,7 @@ p3 {
     transition: transform .2s cubic-bezier(.4, 0, .2, 1), opacity .2s .2s;
     transition: transform .2s cubic-bezier(.4, 0, .2, 1), opacity .2s .2s, -webkit-transform .2s cubic-bezier(.4, 0, .2, 1);
 }
-.allin1 .expand .content {
+.contactcard .expand .content {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
@@ -375,10 +375,10 @@ p3 {
     transition: transform .7s cubic-bezier(.4, 0, .2, 1) 50ms, opacity 0s;
     transition: transform .7s cubic-bezier(.4, 0, .2, 1) 50ms, opacity 0s, -webkit-transform .7s cubic-bezier(.4, 0, .2, 1) 50ms;
 }
-.allin1 .content .head {
+.contactcard .content .head {
     padding: 0 0 20px;
 }
-.allin1 .content .body {
+.contactcard .content .body {
     color: #000;
     color: rgba(0, 0, 0, .87);
     background-color: #FFF;
@@ -386,11 +386,11 @@ p3 {
     padding: 10px 0;
     box-sizing: border-box;
 }
-.allin1 .action-bar {
+.contactcard .action-bar {
     padding-left: 15px;
     border-top: 1px solid #E0E0E0;
     width: 100%}
-.allin1 .action-bar a {
+.contactcard .action-bar a {
     text-transform: uppercase;
     line-height: 52px;
     color: #FFC400;
