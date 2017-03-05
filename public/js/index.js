@@ -66,7 +66,26 @@ function closeOver6() {
 document.addEventListener("DOMContentLoaded", function() {
     dothis()
 }, !1);
-var UnID = ["About Main", "Main Quote", "Button 1", "Button 1 Link", "Button 2", "Button 2 Link", "Button 3", "Button 3 Link", "Button 4", "Button 4 Link", "Button 5", "Button 5 Link", "Button 6", "Button 6 Link"];
+
+var UnID = [
+	"About Main",
+	"Main Quote",
+	"Button 1",
+	"Button 1 Link",
+	"Button 2",
+	"Button 2 Link",
+	"Button 3",
+	"Button 3 Link",
+	"Button 4",
+	"Button 4 Link",
+	"Button 5",
+	"Button 5 Link",
+	"Button 6",
+	"Button 6 Link"
+	];
+
+
+// code for pretty scrolling
 window.onscroll = function(a) {
     window.innerHeight + window.scrollY >= document.body.scrollHeight && (console.log("Bottom of page"), document.getElementById("CoInfo").className += " expand")
 }, $(".button").click(function() {
