@@ -1,0 +1,211 @@
+@media (max-width:768px) {
+    body {
+    margin: 0;
+}
+nav1 a {
+    font-size: 1.5em;
+}
+nav1 a:first-child, nav1 a:last-child {
+    border-radius: 0;
+}
+}
+
+@media screen and (max-height:450px) {
+    .overlay a {
+    font-size: 20px;
+}
+.closebtn {
+    font-size: 40px!important;
+    top: 15px;
+    right: 35px;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+}
+
+@media only screen and (max-width:319px) {
+    .centered-wrapper {
+    width: 94%!important;
+}
+#navigation {
+    display: none;
+    width: 100%;
+    top: 81px;
+    background: #e9e9e9;
+    position: absolute;
+    z-index: 9999;
+    margin-left: -3%;
+    text-align: left;
+}
+#mainnav {
+    padding: 0;
+    margin: 0;
+}
+#mainnav li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0!important;
+    margin: 0;
+}
+#mainnav li:last-child {
+    border-bottom: 0;
+}
+#mainnav li a {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    margin: 0!important;
+}
+#mainnav li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.menu-icon {
+    display: block!important;
+    right: 20px;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .centered-wrapper {
+    width: 94%!important;
+}
+#navigation {
+    display: none;
+    width: 100%;
+    top: 81px;
+    background: #e9e9e9;
+    position: absolute;
+    z-index: 9999;
+    margin-left: -3%;
+    text-align: left;
+}
+#mainnav {
+    padding: 0;
+    margin: 0;
+}
+#mainnav li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0!important;
+    margin: 0;
+}
+#mainnav li:last-child {
+    border-bottom: 0;
+}
+#mainnav li a {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    margin: 0!important;
+}
+#mainnav li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.menu-icon {
+    display: block!important;
+    right: 20px;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#navigation {
+    display: none;
+    width: 100%;
+    top: 81px;
+    background: #e9e9e9;
+    position: absolute;
+    z-index: 9999;
+    margin-left: -2%;
+    text-align: left;
+}
+#mainnav {
+    padding: 0;
+    margin: 0;
+}
+#mainnav li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0!important;
+    margin: 0;
+}
+#mainnav li:last-child {
+    border-bottom: 0;
+}
+#mainnav li a {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    margin: 0!important;
+}
+#mainnav li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.menu-icon {
+    display: block!important;
+    right: 20px;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: initial;
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: initial;
+}
+}
+
+@media only screen and (min-width:1280px) {
+    .centered-wrapper {
+    width: 1250px!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: initial;
+}
+}

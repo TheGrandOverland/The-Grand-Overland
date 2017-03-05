@@ -1,4 +1,4 @@
-# GOD-Website 1.0.1
+# GOD-Website 1.1.0
 ### Contents
 Website files for the GOD website.
 
@@ -9,4 +9,4 @@ Website files for the GOD website.
   * Michaela Dawkins
   
 ### Last Updated
-#### * 3-3-17
+#### * 3-5-17
