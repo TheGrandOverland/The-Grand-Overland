@@ -1,5 +1,6 @@
 .ag, .ag:before {
     -webkit-transition: .3s ease;
+    transition: .3s ease;
 }
 .overlay-content, h21, nav1 a {
     text-align: center;
