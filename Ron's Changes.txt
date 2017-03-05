@@ -11,7 +11,7 @@
 
 	-----------------------------------------------------
 
-	To Make changes to buttons.
+	To Make Changes to Button Links.
 	Open Firebase console, click link: (can type firebase in URL, go to Grand-Overland..., database, Text block)
 	    	https://console.firebase.google.com/project/grand-overland-website/database/data/
 
@@ -20,6 +20,10 @@
 			Replace data and links as needed.  Remember to hit ENTER after entering data.
 
 	Close firebase tab.
+	
+	Turn off Buttons:
+		Replace the button name with the keyword: "none".
+		To undo this, change name to anything else and refresh page.
 
 ########################
 #                      #

@@ -12,7 +12,22 @@ function update(a, b) {
     document.getElementById(a);
     firebase.database().ref("/Text Block/" + a).on("value", function(c) {
         var d = c.val();
-        document.getElementById(a).innerHTML = d, console.log("FB " + a + " Updated-[" + b + "]"), document.body.style.display = "initial"
+        document.getElementById(a).innerHTML = d,
+		console.log("FB " + a + " Updated-[" + b + "]"),
+		document.body.style.display = "initial"
+	
+		// Loop to handle turning off buttons
+		var i = 1;
+		var cur = "";
+		
+		for (i = 1; i <= 6; i++) {
+			cur = "Button " + i;
+			if ((a == cur) && (d == "none")) {
+				document.getElementById(a).style.display = "none";		
+			}
+			
+		}
+		
     })
 }
 
