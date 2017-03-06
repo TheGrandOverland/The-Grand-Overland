@@ -5,6 +5,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 body {
     background: rgba(49, 49, 49, .8);
     font-family: 'PT Sans Narrow', sans-serif;
@@ -12,6 +13,60 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+   
+.g-calendar-big {
+  position: relative;
+  /* 75% of the width--These values are 900px and 675px, respectively. */
+  overflow: hidden;
+  
+}s
+
+.g-calendar-big iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 900px;
+}
+
+.g-calendar-little {
+  position: relative;
+  height: 550px;  /* Set the height of your agenda visibility  */
+  overflow: hidden;
+}
+
+.g-calendar-little iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .g-calendar-little {
+    display: none !important; 
+  }
+}
+
+/* Addition by BRH Because the responsive code for the google calendar was not working on my iPhone4 */
+
+@media (max-width: 599px) {
+  .g-calendar-big {
+    display: none !important;
+  }
+}
+
+/*  To remove big calendar:
+@media (min-width: 699px) {
+  .g-calendar-big {
+    display: none !important;
+  }
+}
+
+*/
+
 #logo, #logosm {
     font-family: Roboto;
     font-weight: 500;
@@ -36,7 +91,7 @@ body {
     display: inline;
 }
 #logosm {
-    width: 130px;
+    width: 260px;
     display: none;
 }
 .logo {
@@ -52,24 +107,8 @@ body {
 #left {
     float: left;
 }
-@media screen and (max-width:838px) {
-    #left, #right {
-    width: 100%;
-    display: inline-block;
-    padding: 10px 25px;
-}
-#left {
-    !important
-     float: none;
-}
-#right {
-    !important
-    float: none;
-}
-#container {
-    text-align: center;
-}
-}.post-module {
+
+.post-module {
     position: relative;
     z-index: 1;
     display: block;
@@ -275,6 +314,26 @@ footer, footer a {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width:683px) {
+    #left, #right {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 25px;
+}
+#left {
+    !important
+     float: none;
+}
+#right {
+    !important
+    float: none;
+}
+#container {
+    text-align: center;
+}
+}
+
 @media screen and (max-height:450px) {
     #logosm {
     display: initial;
@@ -295,7 +354,9 @@ footer, footer a {
     -o-transition: all .3s linear 0s;
     transition: all .3s linear 0s;
 }
-}@media only screen and (max-width:319px) {
+}
+
+@media only screen and (max-width:319px) {
     .centered-wrapper {
     width: 94%!important;
 }
@@ -318,7 +379,9 @@ footer, footer a {
     -o-transition: all .3s linear 0s;
     transition: all .3s linear 0s;
 }
-}@media only screen and (min-width:320px) and (max-width:479px) {
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
     .centered-wrapper {
     width: 94%!important;
 }
@@ -341,7 +404,9 @@ footer, footer a {
     -o-transition: all .3s linear 0s;
     transition: all .3s linear 0s;
 }
-}@media only screen and (min-width:480px) and (max-width:838px) {
+}
+
+@media only screen and (min-width:480px) and (max-width:682px) {
     .centered-wrapper {
     width: 96%!important;
 }
