@@ -3,10 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
 }, !1);
 
 function dothis() {
+    // Background Scrolling Image
     firebase.database().ref("/Images/Main Page/BackgroundScroll").on("value", function(a) {
         var b = a.val();
         document.getElementById("Services").style = b
-    }), firebase.database().ref("/Images/Main Page/FirstImage").on("value", function(a) {
+    }), 
+    // Jeeps in Field Image
+    firebase.database().ref("/Images/Main Page/FirstImage").on("value", function(a) {
         var b = a.val();
         document.getElementById("FirstImage").style = b
     })
