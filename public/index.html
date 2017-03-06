@@ -73,43 +73,11 @@
 			<!-- Centered Wrapper: eds -->
 		</header>
 		<!-- Header: ends -->
-		<!-- Overlays-->
-		<div id="Button 1 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver()">×</a>
-			<div id="Button 1 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 2 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver2()">×</a>
-			<div id="Button 2 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 3 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver3()">×</a>
-			<div id="Button 3 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 4 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver4()">×</a>
-			<div id="Button 4 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 5 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver5()">×</a>
-			<div id="Button 5 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 6 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver6()">×</a>
-			<div id="Button 6 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
+        
+		<!-- Loop Anchor to create button overlays -->
+        <div id="allOverlays"></div>
+        
+        
 		<!--Overlays End-->
 		<!--Wrapper: begins -->
 		<div id="wrapper">
@@ -154,7 +122,6 @@
 				ga('send', 'pageview');
 				</script>
 
-
 				<div class="single-space">
 				</div>
 				<!-- Centered Wrapper: eds -->
@@ -174,24 +141,9 @@
 						</div>	
 					</h1>
 					
-					<div class="box1holder">
-						<h1 id="Button 1" style="cursor:pointer" onclick="openOver()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 2" style="cursor:pointer" onclick="openOver2()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 3" style="cursor:pointer" onclick="openOver3()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 4" style="cursor:pointer" onclick="openOver4()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 5" style="cursor:pointer" onclick="openOver5()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 6" style="cursor:pointer" onclick="openOver6()" class="box1">Loading...</h1>
-					</div>
+                    <!-- Loop Anchor to create buttons -->
+                    <div id="allButtons"></div>
+                            
 				</div>
 				<!-- Centered Wrapper: ends -->
 				<!-- Double Space: begins -->
@@ -271,13 +223,18 @@
 		</div>
 		<!-- Wrapper Ends -->
 	</body>
-	
-	<script src='js/jquery.min.js'></script>
-	<script src="js/index.js"></script>
 
+	<script src='js/jquery.min.js'></script>
+
+    <!-- Custom Scripts-->
+    <script src="js/ButtonsAndOverlays.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/prettyscroll.js"></script>
+
+    <!--  MailChimp and JotForm scripts-->
 	<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script type="text/javascript">
-														require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us13.list-manage.com", "uuid": "bcf7e0c9fff1455da75692656", "lid": "90d1abebea" }) })
+		require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us13.list-manage.com", "uuid": "bcf7e0c9fff1455da75692656", "lid": "90d1abebea" }) })
 	</script>
 </body>
 
