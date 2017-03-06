@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgba(49, 49, 49, .8);
+    background: rgba(0, 0, 0, .8);
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
@@ -310,7 +310,7 @@ footer, footer a {
     box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1), 0 0 0 20px rgba(102, 102, 102, 0);
 }
 }footer {
-    background-color: #333;
+    background-color: #191818;
     padding-top: 50px;
     padding-bottom: 50px;
 }
