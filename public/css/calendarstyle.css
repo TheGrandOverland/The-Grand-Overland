@@ -1,0 +1,514 @@
+.post-module .post-content, .post-module .thumbnail .date {
+    -moz-box-sizing: border-box;
+    -webkti-box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: rgba(0, 0, 0, .8);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+   
+.g-calendar-big {
+  position: relative;
+  /* 75% of the width--These values are 900px and 675px, respectively. */
+  overflow: hidden;
+  
+}s
+
+.g-calendar-big iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 900px;
+}
+
+.g-calendar-little {
+  position: relative;
+  height: 550px;  /* Set the height of your agenda visibility  */
+  overflow: hidden;
+}
+
+.g-calendar-little iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .g-calendar-little {
+    display: none !important; 
+  }
+}
+
+/* Addition by BRH Because the responsive code for the google calendar was not working on my iPhone4 */
+
+@media (max-width: 599px) {
+  .g-calendar-big {
+    display: none !important;
+  }
+}
+
+/*  To remove big calendar:
+@media (min-width: 699px) {
+  .g-calendar-big {
+    display: none !important;
+  }
+}
+
+*/
+
+#logo, #logosm {
+    font-family: Roboto;
+    font-weight: 500;
+    float: left;
+}
+#header {
+    height: 80px;
+    width: 100%;
+    position: initial;
+    background-color: #ffF;
+    border-bottom: 1px solid #ccc;
+    z-index: 2;
+}
+.centered-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1250px;
+    overflow: hidden;
+}
+#logo {
+    width: 550px;
+    display: inline;
+}
+#logosm {
+    width: 260px;
+    display: none;
+}
+.logo {
+    font-size: 36px;
+    padding: 0;
+    line-height: 80px;
+}
+#right {
+    float: right;
+    margin-left: initial;
+    margin-right: initial;
+}
+#left {
+    float: left;
+}
+
+.post-module {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: #FFF;
+    height: 480px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 1px 10px rgba(0, 0, 0, .22);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+.hover, .post-module:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, .3), 0 15px 12px rgba(0, 0, 0, .22);
+}
+.hover .thumbnail img, .post-module:hover .thumbnail img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: translate(-50%, 0) scale(1.1);
+    opacity: .6;
+}
+.post-module .thumbnail {
+    background: #000;
+    height: 400px;
+    overflow: hidden;
+}
+.post-module .thumbnail .date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background: #e74c3c;
+    width: 55px;
+    height: 55px;
+    padding: 12.5px 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+.post-module .thumbnail .date .day {
+    font-size: 18px;
+}
+.post-module .thumbnail .date .month {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.post-module .thumbnail img {
+    height: initial;
+    width: 100%;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+.post-module .post-content {
+    position: absolute;
+    bottom: 0;
+    background: #FFF;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-transition: all .3s cubic-bezier(.37, .75, .61, 1.05) 0s;
+    -moz-transition: all .3s cubic-bezier(.37, .75, .61, 1.05) 0s;
+    -ms-transition: all .3s cubic-bezier(.37, .75, .61, 1.05) 0s;
+    -o-transition: all .3s cubic-bezier(.37, .75, .61, 1.05) 0s;
+    transition: all .3s cubic-bezier(.37, .75, .61, 1.05) 0s;
+}
+.post-module .post-content .category {
+    position: absolute;
+    top: -34px;
+    left: 0;
+    background: #e74c3c;
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.post-module .post-content .title {
+    margin: 0;
+    padding: 0 0 9px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+.post-module .post-content .sub_title {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #e74c3c;
+    font-size: 17px;
+    font-weight: 400;
+}
+.post-module .post-content .description {
+    display: none;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.post-module .post-content .post-meta {
+    margin: 30px 0 0;
+    color: #999;
+}
+.post-module .post-content .post-meta .timestamp {
+    margin: 0 16px 0 0;
+}
+.post-module .post-content .post-meta a {
+    color: #999;
+    text-decoration: none;
+}
+.hover .post-content .description {
+    display: block!important;
+    height: auto!important;
+    opacity: 1!important;
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+.container:after, .container:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container .column {
+    width: 50%;
+    padding: 10px 5.6%;
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.container .column .demo-title {
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container .info {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+.at-button {
+    z-index: 10000000;
+    position: fixed;
+    right: 24px;
+    top: 18px;
+    background: #FFF;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    color: #666;
+    -webkit-animation: at-ripple .6s linear infinite;
+    animation: at-ripple .6s linear infinite;
+}
+footer, footer a {
+    color: #fff;
+}
+.at-button:hover i {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.at-button i {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+@-webkit-keyframes at-ripple {
+    0% {
+    box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 0 rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1);
+}
+100% {
+    box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1), 0 0 0 20px rgba(102, 102, 102, 0);
+}
+}@keyframes at-ripple {
+    0% {
+    box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 0 rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1);
+}
+100% {
+    box-shadow: 0 4px 10px rgba(102, 102, 102, .1), 0 0 0 5px rgba(102, 102, 102, .1), 0 0 0 10px rgba(102, 102, 102, .1), 0 0 0 20px rgba(102, 102, 102, 0);
+}
+}footer {
+    background-color: #191818;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:683px) {
+    #left, #right {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 25px;
+}
+#left {
+    !important
+     float: none;
+}
+#right {
+    !important
+    float: none;
+}
+#container {
+    text-align: center;
+}
+}
+
+@media screen and (max-height:450px) {
+    #logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+.post-module .thumbnail img {
+    height: 100%;
+    width: initial;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}
+
+@media only screen and (max-width:319px) {
+    .centered-wrapper {
+    width: 94%!important;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+.post-module .thumbnail img {
+    height: 100%;
+    width: initial;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .centered-wrapper {
+    width: 94%!important;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+.post-module .thumbnail img {
+    height: 100%;
+    width: initial;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:682px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#logosm {
+    display: initial;
+}
+#logo {
+    display: none;
+}
+.post-module {
+    max-width: 500px;
+    margin: auto!important;
+}
+.post-module .thumbnail img {
+    height: 100%;
+    width: initial;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+@media only screen and (min-width:839px) and (max-width:1023px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: inline;
+}
+.post-module {
+    max-width: 600px;
+}
+.post-module .thumbnail img {
+    height: initial;
+    width: 100%;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}@media only screen and (min-width:1024px) and (max-width:1279px) {
+    .centered-wrapper {
+    width: 96%!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: initial;
+}
+.post-module {
+    max-width: 600px;
+}
+.post-module .thumbnail img {
+    height: initial;
+    width: 100%;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}@media only screen and (min-width:1280px) {
+    .centered-wrapper {
+    width: 1250px!important;
+}
+#logosm {
+    display: none;
+}
+#logo {
+    display: initial;
+}
+.post-module {
+    max-width: 600px;
+}
+.post-module .thumbnail img {
+    height: initial;
+    width: 100%;
+    display: block;
+    position: static;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transition: all .3s linear 0s;
+    -moz-transition: all .3s linear 0s;
+    -ms-transition: all .3s linear 0s;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+}}

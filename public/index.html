@@ -20,7 +20,6 @@
 	<link rel='stylesheet prefetch' href='css/oswald.css'>
 	<link rel='stylesheet prefetch' href='css/ptsans.css'>
 	<link rel='stylesheet prefetch' href='css/font-awesome/css/font-awesome.min.css'>
-	
 </head>
 
 <body>
@@ -62,7 +61,7 @@
 					<!-- Main Navigation: begins -->
 					<ul id="mainnav">
 						<li><a href="#About"><span>Home</span></a></li>
-						<li><a href="Pages/activities/index.html"><span>Activities</span></a></li>
+						<li><a href="activities.html"><span>Activities</span></a></li>
 						<li><a href="#Services"><span>Event Registration</span></a></li>
 						<li><a href="#Contact"><span>Info</span></a></li>
 					</ul>
@@ -73,43 +72,11 @@
 			<!-- Centered Wrapper: eds -->
 		</header>
 		<!-- Header: ends -->
-		<!-- Overlays-->
-		<div id="Button 1 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver()">×</a>
-			<div id="Button 1 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 2 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver2()">×</a>
-			<div id="Button 2 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 3 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver3()">×</a>
-			<div id="Button 3 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 4 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver4()">×</a>
-			<div id="Button 4 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 5 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver5()">×</a>
-			<div id="Button 5 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
-		<div id="Button 6 Linko" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeOver6()">×</a>
-			<div id="Button 6 Link" class="overlay-content">
-				<p style="color: white;">Loading...</p>
-			</div>
-		</div>
+        
+		<!-- Loop Anchor to create button overlays -->
+        <div id="allOverlays"></div>
+        
+        
 		<!--Overlays End-->
 		<!--Wrapper: begins -->
 		<div id="wrapper">
@@ -154,7 +121,6 @@
 				ga('send', 'pageview');
 				</script>
 
-
 				<div class="single-space">
 				</div>
 				<!-- Centered Wrapper: eds -->
@@ -174,24 +140,9 @@
 						</div>	
 					</h1>
 					
-					<div class="box1holder">
-						<h1 id="Button 1" style="cursor:pointer" onclick="openOver()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 2" style="cursor:pointer" onclick="openOver2()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 3" style="cursor:pointer" onclick="openOver3()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 4" style="cursor:pointer" onclick="openOver4()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 5" style="cursor:pointer" onclick="openOver5()" class="box1">Loading...</h1>
-					</div>
-					<div class="box1holder">
-						<h1 id="Button 6" style="cursor:pointer" onclick="openOver6()" class="box1">Loading...</h1>
-					</div>
+                    <!-- Loop Anchor to create buttons -->
+                    <div id="allButtons"></div>
+                            
 				</div>
 				<!-- Centered Wrapper: ends -->
 				<!-- Double Space: begins -->
@@ -228,8 +179,11 @@
 											<hr> Email Address:<br>
 											<a href="mailto:GrandOverland@gmail.com" target="_blank">GrandOverland@gmail.com</a>
 											<hr>
-											<br>
-											<strong>If you're interested in reserving G.O.D. property or have questions, feel free to contact us!</strong>
+											<strong>If you're interested in reserving G.O.D. property, please check our calendar and contact us!</strong>
+                                            <br>
+                                            <nav1 class="container1" style="width: 84%; margin-left: 8%;">
+                                                <a style="border-radius: 6px;" class="ig" href="calendar.html" target="_blank"><i style="color: white;" class="fa fa-calendar-check-o"></i></a>
+                                            </nav1>
 											<hr>
 										</p2>
 									</div>
@@ -238,46 +192,45 @@
 						</div>
 						<div class="single-space">
 						</div>
-						<!-- Double Space: begins -->
+						<!-- Single Space: begins -->
 						<div class="single-space"></div>
-						<!-- Double Space: ends -->
+						<!-- Single Space: ends -->
 						<nav1 class="container1">
 							<a class="fb" href="https://www.facebook.com/GrandOverlandDistrict/" target="_blank"><i class="fa fa-facebook"></i></a>
 							<a class="tw" href="mailto:grandoverland@gmail.com" target="_top"><i class="fa fa-envelope-o"></i></a>
 							<a class="gp" href="http://eepurl.com/cbdpxf" target="_blank"><i class="fa fa-paper-plane"></i></a>
 							<a class="ig" href="https://www.google.com/maps/place/Uwharrie+Off-Road+Training+Center,+LLC/@35.4466838,-80.0206571,680m/data=!3m1!1e3!4m5!3m4!1s0x0:0x2894b6eb78dfee4c!8m2!3d35.4463939!4d-80.0197269"
-							 target="_blank"><i class="fa fa-map-marker"></i></a>
+							target="_blank"><i class="fa fa-map-marker"></i></a>
 						</nav1>
 					</div>
 				</div>
 				<!-- Centered Wrapper: ends -->
-				<!-- Double Space: begins -->
-				<div class="double-space"></div>
-				<!-- Double Space: ends -->
-				<!-- Footer -->
-				<footer>
-					<div class="container text-center">
-						<div class="row">
-							<div class="col-lg-12">
-								Copyright &copy; The Grand Overland District 2016 <br> Website Developed by <a href="mailto:SethParrish@outlook.com"
-								 target="_blank">Seth Parrish</a>
-							</div>
-						</div>
-					</div>
-				</footer>
-				<!-- / Footer -->
+				<!-- Single Space: begins -->
+				<div class="single-space"></div>
+				<!-- Single Space: ends -->
+				
+                
+                <!-- Anchor for Footer -->
+				<div id="footer"></div>
+                
 			</section>
 			<!-- Section: ends -->
 		</div>
 		<!-- Wrapper Ends -->
 	</body>
-	
-	<script src='js/jquery.min.js'></script>
-	<script src="js/index.js"></script>
 
+	<script src='js/jquery.min.js'></script>
+
+    <!-- Custom Scripts-->
+    <script src="js/ButtonsAndOverlays.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/prettyscroll.js"></script>
+    <script src="js/footer.js"></script>
+
+    <!--  MailChimp and JotForm scripts-->
 	<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 	<script type="text/javascript">
-														require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us13.list-manage.com", "uuid": "bcf7e0c9fff1455da75692656", "lid": "90d1abebea" }) })
+		require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us13.list-manage.com", "uuid": "bcf7e0c9fff1455da75692656", "lid": "90d1abebea" }) })
 	</script>
 </body>
 
