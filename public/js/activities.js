@@ -8,5 +8,5 @@ $(window).load(function() {
     }),
     function() {
         var a;
-        a = '<a href="https://thegrandoverland.com/index.html" class="at-button"><i style="position: absolute; top: 10px;" class="fa fa-home fa-2x" aria-hidden="true"></i></a>', document.body.innerHTML += a
+        a = '<a href="index.html" class="at-button"><i style="position: absolute; top: 10px;" class="fa fa-home fa-2x" aria-hidden="true"></i></a>', document.body.innerHTML += a
     }.call(this);
