@@ -2,9 +2,6 @@
     -moz-box-sizing: border-box;
     -webkti-box-sizing: border-box;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 
 body {
     background: rgba(0, 0, 0, .8);
@@ -14,7 +11,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-   
 .g-calendar-big {
   position: relative;
   /* 75% of the width--These values are 900px and 675px, respectively. */
@@ -43,6 +39,127 @@ body {
   width: 90%;
   max-width: 100%;
 }
+
+.container1 {
+    width: 100%;
+    display: table;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#iframe1, #iframe2 {
+    position: absolute;
+    left: 5%;
+    height: 100vh;
+    width: 85vw;
+    border: 2px;
+    margin: 0;
+    padding: 10px;
+    overflow: visible;
+}
+
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: #ffF;
+    border-bottom: 1px solid #ccc;
+}
+
+.card, .overlay {
+    overflow-y: hidden;
+}
+
+.overlay {
+	z-index: 101;
+	position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9);
+    transition: .7s;
+}
+.card, .overlay-content, .slides_container, p3 {
+    position: relative;
+}
+h21, p3 {
+    font-family: Raleway, sans-serif;
+    z-index: 1;
+}
+.overlay-content {
+    top: -2.75%;
+    width: 100%;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: .3s;
+    right: 0;
+}
+.overlay a:focus, .overlay a:hover {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 4px;
+    font-size: 80px!important;
+    z-index: 5;
+	text-decoration: none;
+	top: -10px;
+}
+
+nav1 a {
+    display: table-cell;
+    color: #fff;
+    width: 14.2%;
+    font-size: 2em;
+    padding: .5em;
+}
+nav1 a:first-child {
+    border-radius: 5px 0 0 5px;
+}
+nav1 a:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+nav1 a:first-child:nth-last-child(1) {
+    width: 100%}
+nav1 a:first-child:nth-last-child(2), nav1 a:first-child:nth-last-child(2)~a {
+    width: 50%}
+nav1 a:first-child:nth-last-child(3), nav1 a:first-child:nth-last-child(3)~a {
+    width: 33.3333%}
+nav1 a:first-child:nth-last-child(4), nav1 a:first-child:nth-last-child(4)~a {
+    width: 25%}
+nav1 a:first-child:nth-last-child(5), nav1 a:first-child:nth-last-child(5)~a {
+    width: 20%}
+nav1 a:first-child:nth-last-child(6), nav1 a:first-child:nth-last-child(6)~a {
+    width: 16.666%}
+nav1 a:first-child:nth-last-child(7), nav1 a:first-child:nth-last-child(7)~a {
+    width: 14.285%}
+nav1 a:first-child:nth-last-child(8), nav1 a:first-child:nth-last-child(8)~a {
+    width: 12.5%}
+
+nav1 a.ig {
+    background: #4CAF50;
+    text-shadow: 1px 1px 0 #385771;
+}
+nav1 a.ig:hover {
+    color: #4580b0!important;
+    background: #406582;
+}
+nav1 a.ig:active {
+    color: #517FA4;
+    background: #2f4a60;
+}
+
+
 
 @media (min-width: 600px) {
   .g-calendar-little {
@@ -268,7 +385,7 @@ body {
     color: #fff;
 }
 .at-button {
-    z-index: 10000000;
+    z-index: 100;
     position: fixed;
     right: 24px;
     top: 18px;

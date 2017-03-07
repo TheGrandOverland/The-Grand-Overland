@@ -39,6 +39,14 @@
             <!-- Centered Wrapper: eds -->
         </header> 
         <!-- Header: ends -->
+		
+		<!-- Create Single Overlay -->
+		<div id="Button Overlay" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeOver()">x</a>
+            <div id="Button Link" class="overlay-content">
+            "<iframe src='https://form.jotform.com/70075517075152' id='iframe1'>Loading...</iframe>"
+            </div>
+        </div>
 
         <div class="container">
         <br>
@@ -51,6 +59,26 @@
             <iframe src="https://calendar.google.com/calendar/embed?title=GOD%20Calendar&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=grandoverland%40gmail.com&&amp;color=%23afb787&amp;ctz=America%2FNew_York" style="border-width:0" width="280" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         
+		
+		<!-- Remove style display none to activate -->
+		<nav1 class="container" style="display: none; width: 84%; margin-left: 8%; cursor: pointer;" onclick="openOver()">
+			<a style="border-radius: 6px;" class="ig"><div style="
+				font-weight: 400;
+				text-align: center;
+				padding: 0px 20px 0px 20px;">
+				Request Reservation</div></a>
+		</nav1>
+		
+		<script>
+		function openOver() {
+			document.getElementById("Button Overlay").style.width = "100%", document.body.style.overflow = "hidden";
+		}
+
+		function closeOver() {
+			document.getElementById("Button Overlay").style.width = "0%", document.body.style.overflow = "visible";
+		}
+		</script>
+		
         </div>
         <br>
 
