@@ -12,5 +12,4 @@ Website files for the GOD website.
 #### * 3-6-17 ###
 
 ### Current Projects ###
-Add a hidden download page for RRC
-Enable hydration for our app
+*Continiously Improve Code
