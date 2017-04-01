@@ -40,6 +40,17 @@
 #                      #
 ########################
 
+================================
+3/27/17 Ron
+- didn't Remember how to use Github
+- used firebase, turned off button 2.
+
+===============================
+
+3-5-17
+Connected to github. Thanks Seth
+================
+
 3/2/17
 	Added Link to gallery:
 		https://photos.google.com/share/AF1QipOerbwD2CHkhaRlIv7XbPi45lvnT-lwNvsP1_CsV8P72qUMyN7PFHxnRFOSKLmjDg?key=eDN6VVpVdlY4Y2RUNE41OUNSendRSzBZLTlDWmFn
@@ -86,6 +97,4 @@ Changes for 11/12/16 ride buttons
 
 ===============
 
-3-5-17
-Connected to github. Thanks Seth
-================
+
