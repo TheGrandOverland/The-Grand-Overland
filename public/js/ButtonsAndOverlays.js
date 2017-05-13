@@ -7,7 +7,7 @@ for (i = 1; i <= 6; i++) {
     div.innerHTML = 
     
         '<div id="Button ' + i + ' Linko" class="overlay">' +
-            '<a href="javascript:void(0)" class="closebtn" onclick="closeOver' + i + '()">'+ "x" +'</a>' +
+            '<a href="javascript:void(0)" class="closebtn" onclick="closeOver' + i + '()">x</a>' +
             '<div id="Button ' + i + ' Link" class="overlay-content">' +
             '<p style="color: white;">Loading...</p>' +
             '</div>' +
@@ -35,11 +35,11 @@ for (i = 1; i <= 6; i++) {
 
 // Open and Close Functions
 function openOver1() {
-    document.getElementById("Button 1 Linko").style.width = "100%", document.getElementById("body1").style.overflow = "hidden"
+    document.getElementById("Button 1 Linko").style.width = "100%"; 
 }
 
 function closeOver1() {
-    document.getElementById("Button 1 Linko").style.width = "0%", document.getElementById("body1").style.overflow = "visible"
+    document.getElementById("Button 1 Linko").style.width = "0%";
 }
 
 function openOver2() {
