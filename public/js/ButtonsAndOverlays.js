@@ -7,7 +7,7 @@ for (i = 1; i <= 6; i++) {
     div.innerHTML = 
     
         '<div id="Button ' + i + ' Linko" class="overlay">' +
-            '<a href="javascript:void(0)" class="closebtn" onclick="closeOver' + i + '()">x</a>' +
+            '<a href="javascript:void(0)" class="closebtn" onclick="closeOver(' + i + ')">x</a>' +
             '<div id="Button ' + i + ' Link" class="overlay-content">' +
             '<p style="color: white;">Loading...</p>' +
             '</div>' +
@@ -25,7 +25,7 @@ for (i = 1; i <= 6; i++) {
     div.innerHTML = 
     
         '<div class="box1holder">' +
-            '<h1 id="Button ' + i + '" style="cursor:pointer" onclick="openOver' + i + '()" class="box1">' +
+            '<h1 id="Button ' + i + '" style="cursor:pointer" onclick="openOver(' + i + ')" class="box1">' +
                 'Loading...' +
             '</h1>' +
         '</div>';
@@ -34,50 +34,10 @@ for (i = 1; i <= 6; i++) {
 }
 
 // Open and Close Functions
-function openOver1() {
-    document.getElementById("Button 1 Linko").style.width = "100%"; 
+function openOver(index) {
+    document.getElementById("Button " + index + " Linko").style.width = "100%"; 
 }
 
-function closeOver1() {
-    document.getElementById("Button 1 Linko").style.width = "0%";
-}
-
-function openOver2() {
-    document.getElementById("Button 2 Linko").style.width = "100%"
-}
-
-function closeOver2() {
-    document.getElementById("Button 2 Linko").style.width = "0%"
-}
-
-function openOver3() {
-    document.getElementById("Button 3 Linko").style.width = "100%"
-}
-
-function closeOver3() {
-    document.getElementById("Button 3 Linko").style.width = "0%"
-}
-
-function openOver4() {
-    document.getElementById("Button 4 Linko").style.width = "100%"
-}
-
-function closeOver4() {
-    document.getElementById("Button 4 Linko").style.width = "0%"
-}
-
-function openOver5() {
-    document.getElementById("Button 5 Linko").style.width = "100%"
-}
-
-function closeOver5() {
-    document.getElementById("Button 5 Linko").style.width = "0%"
-}
-
-function openOver6() {
-    document.getElementById("Button 6 Linko").style.width = "100%"
-}
-
-function closeOver6() {
-    document.getElementById("Button 6 Linko").style.width = "0%"
+function closeOver(index) {
+    document.getElementById("Button " + index + " Linko").style.width = "0%";
 }
