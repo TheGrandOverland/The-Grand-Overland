@@ -19,11 +19,18 @@
 
 			Replace data and links as needed.  Remember to hit ENTER after entering data.
 
+	Button Example: "4/8/17 Patriot Therapy Ride"
+
+	Link example: "<iframe src='https://www.patriottherapy.org/fundraiser' id='iframe1'>Loading...</iframe>"
+		    : "<iframe src='https://form.jotform.com/63607933278162' id='iframe1'>Loading...</iframe>"
+
 	Close firebase tab.
 	
 	Turn off Buttons:
 		Replace the button name with the keyword: "none".
 		To undo this, change name to anything else and refresh page.
+
+Don't forget to refresh page, takes a couple minutes sometimes to update.
 		
 	Github Instructions:
 		Access App
