@@ -3,20 +3,22 @@ document.addEventListener("DOMContentLoaded", function() {
 }, !1);
 
 function dothis() {
-    // Background Scrolling Image
-    firebase.database().ref("/Images/Main Page/BackgroundScroll").on("value", function(a) {
-        var b = a.val();
-        document.getElementById("Services").style = b
-    }), 
     // Jeeps in Field Image
     firebase.database().ref("/Images/Main Page/FirstImage").on("value", function(a) {
         var b = a.val();
         document.getElementById("FirstImage").style = b
+    }),
+    // Background Scrolling Image
+    firebase.database().ref("/Images/Main Page/BackgroundScroll").on("value", function(a) {
+        var b = a.val();
+        document.getElementById("Services").style = b
     })
 }
 
+// A is the item in UnID, and b is the index of it
 function update(a, b) {
     document.getElementById(a);
+    // function is ran each time the value of the item updates I believe
     firebase.database().ref("/Text Block/" + a).on("value", function(c) {
         var d = c.val();
         document.getElementById(a).innerHTML = d,

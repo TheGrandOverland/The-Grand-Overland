@@ -1,93 +1,107 @@
 <!DOCTYPE html>
-<html >
-    <head>
-        <title>Calendar</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" />
-       
-       <!-- CSS Files -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/calendarstyle.css">
-        <link rel='stylesheet prefetch' href='css/font-awesome/css/font-awesome.min.css'>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-         
-        <!-- Web Analytics Go Here!!!-->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-82133121-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
-    
-    <body>
-        <!-- Header: begins -->
-        <header id="header">
-            <!-- Centered Wrapper: begins -->
-            <div class="centered-wrapper">
-                <!-- Logo: begins -->
-                <div id="logo">  
-                    <span class="logo">Grand Overland District Calendar</span> 
-                </div>
-                <div id="logosm">  
-                    <span class="logo">GOD Calendar</span> 
-                </div>
-                <!-- Logo: ends -->
+<html>
+
+<head>
+    <title>Calendar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/calendarstyle.css">
+    <link rel='stylesheet prefetch' href='css/font-awesome/css/font-awesome.min.css'>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Web Analytics Go Here!!!-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-82133121-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <!-- Header: begins -->
+    <header id="header">
+        <!-- Centered Wrapper: begins -->
+        <div class="centered-wrapper">
+            <!-- Logo: begins -->
+            <div id="logo">
+                <span class="logo">Grand Overland District Calendar</span>
             </div>
-            <!-- Centered Wrapper: eds -->
-        </header> 
-        <!-- Header: ends -->
-		
-		<!-- Create Single Overlay -->
-		<div id="Button Overlay" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeOver()">x</a>
-            <div id="Button Link" class="overlay-content">
-            "<iframe src='https://form.jotform.com/70075517075152' id='iframe1'>Loading...</iframe>"
+            <div id="logosm">
+                <span class="logo">GOD Calendar</span>
             </div>
+            <!-- Logo: ends -->
+        </div>
+        <!-- Centered Wrapper: eds -->
+    </header>
+    <!-- Header: ends -->
+
+    <!-- Create Single Overlay -->
+    <div id="Button Overlay" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeOver()">x</a>
+        <div id="Button Link" class="overlay-content">
+            <!-- Needs Updating! -->
+            <iframe src='https://form.jotform.com/70075517075152' id='iframe1'>Loading...</iframe>"
+        </div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="container">
+        <br>
+
+        <div class="g-calendar-big">
+            <iframe src="https://www.google.com/calendar/embed?title=GOD%20Calendar&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=grandoverland%40gmail.com&amp;color=%234E5D6C&amp;ctz=America%2FNew_York"
+                style=" border-width:0" width="80%" height="675px" frameborder="0" scrolling="no"></iframe>
         </div>
 
-        <div class="container">
-        <br>
-          
-        <div class="g-calendar-big">
-            <iframe src="https://www.google.com/calendar/embed?title=GOD%20Calendar&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=grandoverland%40gmail.com&amp;color=%234E5D6C&amp;ctz=America%2FNew_York" style=" border-width:0" width="80%" height="675px" frameborder="0" scrolling="no"></iframe>
+        <div class="g-calendar-little">
+            <iframe src="https://calendar.google.com/calendar/embed?title=GOD%20Calendar&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=grandoverland%40gmail.com&&amp;color=%23afb787&amp;ctz=America%2FNew_York"
+                style="border-width:0" width="280" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
-        
-        <div class="g-calendar-little"> 
-            <iframe src="https://calendar.google.com/calendar/embed?title=GOD%20Calendar&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=grandoverland%40gmail.com&&amp;color=%23afb787&amp;ctz=America%2FNew_York" style="border-width:0" width="280" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-        
-		
-		<!-- Remove style display none to activate -->
-		<nav1 class="container" style="display: none; width: 84%; margin-left: 8%; cursor: pointer;" onclick="openOver()">
-			<a style="border-radius: 6px;" class="ig"><div style="
+
+        <!-- Remove the style: "display: none;" to activate button -->
+        <nav1 class="container" style="display: none; width: 84%; margin-left: 8%; cursor: pointer;" onclick="openOver()">
+            <a style="border-radius: 6px;" class="ig">
+                <div style="
 				font-weight: 400;
 				text-align: center;
 				padding: 0px 20px 0px 20px;">
-				Request Reservation</div></a>
-		</nav1>
-		
-		<script>
-		function openOver() {
-			document.getElementById("Button Overlay").style.width = "100%", document.body.style.overflow = "hidden";
-		}
+                    Request Reservation</div>
+            </a>
+        </nav1>
 
-		function closeOver() {
-			document.getElementById("Button Overlay").style.width = "0%", document.body.style.overflow = "visible";
-		}
-		</script>
-		
-        </div>
-        <br>
+        <script>
+            function openOver() {
+                document.getElementById("Button Overlay").style.width = "100%", document.body.style.overflow = "hidden";
+            }
 
-        <!-- Anchor for Footer -->
-        <div id="footer"></div>
-        
-    </body>
-    
-    <script src='js/jquery.min.js'></script>
-    <script src="js/footer.js"></script>
-    <script src="js/HomePageButton.js"></script>
+            function closeOver() {
+                document.getElementById("Button Overlay").style.width = "0%", document.body.style.overflow = "visible";
+            }
+        </script>
+
+    </div>
+    <br>
+
+    <!-- Anchor for Footer -->
+    <div id="footer"></div>
+
+</body>
+
+<script src='js/jquery.min.js'></script>
+<script src="js/footer.js"></script>
+<script src="js/HomePageButton.js"></script>
+
 </html>
