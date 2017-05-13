@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://thegrandoverland.com/</loc>
-  <lastmod>2016-08-11T20:19:26+00:00</lastmod>
-</url>
-<url>
-  <loc>https://thegrandoverland.com/Pages/activities/index.html</loc>
-  <lastmod>2016-08-11T20:19:25+00:00</lastmod>
-</url>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://thegrandoverland.com/</loc>
+  </url>
+  <url>
+    <loc>https://thegrandoverland.com/calendar.html</loc>
+  </url>
+  <url>
+    <loc>https://thegrandoverland.com/activities.html</loc>
+  </url>
 </urlset>
+<!--<guid value="08a27aca-994f-4a81-9ca6-d79864682c60" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
