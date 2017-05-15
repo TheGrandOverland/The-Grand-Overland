@@ -185,7 +185,7 @@ p3 {
     height: 60px;
 }
 .section {
-    min-height: 700px;
+    /* min-height: 700px; */
     overflow: hidden;
 }
 .darker {

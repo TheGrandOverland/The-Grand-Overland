@@ -103,5 +103,11 @@ Changes for 11/12/16 ride buttons
 1/7/17 removed JOF 4/22/17 and added 3/4/17 DnD
 
 ===============
+5/15/17 Seth changed background picture and couldnt make it work pretty
+Here is the firebase value to fix it back to original:
+"background: url(https://firebasestorage.googleapis.com/v0/b/grand-overland-website.appspot.com/o/2ndMapCapture.JPG?alt=media&token=62f0dac3-131b-4062-a2cc-65dfe229a350) 100% 0 repeat fixed;"
+
+
+=========
 
 
