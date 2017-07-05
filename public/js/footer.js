@@ -8,8 +8,8 @@ footer.innerHTML =
             '<div class="row">' +
                 '<div class="col-lg-12">' +
                     ' The Grand Overland District, LLC - Copyright &copy;2017 <br>' +
-                    'Website Developed by <a href="mailto:SethParrish@outlook.com"' +
-                    'target="_blank">Seth Parrish</a>' +
+                    'Website Developed by <a href="https://setherizor.github.io"' +
+                    'rel="noopener">Seth Parrish</a>' +
                 '</div>' +
             '</div>' +
         '</div>' +
