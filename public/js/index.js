@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
   dothis()
-  UnID.forEach(update);
+  UnID.forEach(update)
 }, !1)
 
-function dothis() {
+function dothis () {
   // Jeeps in Field Image
   firebase.database().ref('/Images/Main Page/FirstImage').on('value', function (a) {
     var b = a.val()
@@ -17,12 +17,12 @@ function dothis() {
 }
 
 // A is the item in UnID, and b is the index of it
-function update(x, i) {
+function update (x, i) {
   var elem = document.getElementById(x)
   // function is ran each time the value of the item updates I believe
   firebase.database().ref('/Text Block/' + x).on('value', function (c) {
     var d = c.val()
-      elem.innerHTML = d,
+    elem.innerHTML = d,
       console.log(`FB ${x} Updated`),
       document.body.style.display = 'initial'
 
