@@ -6,7 +6,6 @@ Website files for the GOD website.
   * Seth H. Parrish
   * Ron Parrish
   * Julie Parrish
-  * Michaela Dawkins
-  
+
 ### Last Updated ###
-#### * 7-5-17 ###
+#### * 8-8-17 ###
