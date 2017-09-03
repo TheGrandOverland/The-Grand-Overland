@@ -1,6 +1,6 @@
 // Footer Creation
-var anchor = document.getElementById('footer')
-var footer = document.createElement('div')
+const anchor = document.getElementById('footer')
+const footer = document.createElement('div')
 footer.innerHTML =
   `<footer> 
         <div class="container text-center"> 

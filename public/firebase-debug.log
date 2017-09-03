@@ -1,0 +1,28 @@
+[debug] [2017-09-03T22:51:50.566Z] ----------------------------------------------------------------------
+[debug] [2017-09-03T22:51:50.568Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\SethP\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-03T22:51:50.569Z] CLI Version:  3.9.1
+[debug] [2017-09-03T22:51:50.569Z] Platform:     win32
+[debug] [2017-09-03T22:51:50.569Z] Node Version: v8.1.3
+[debug] [2017-09-03T22:51:50.569Z] Time:         Sun Sep 03 2017 18:51:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-09-03T22:51:50.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-03T22:51:50.582Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-03T22:51:50.582Z] > authorizing via signed-in user
+[debug] [2017-09-03T22:51:50.584Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/grand-overland-website  
+ Sun Sep 03 2017 18:51:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-09-03T22:51:50.915Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-03T22:51:50.916Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/grand-overland-website/tokens  
+ Sun Sep 03 2017 18:51:50 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-09-03T22:51:53.848Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\SethP\Documents\GitHub\The-Grand-Overland'...
+[info] 
+[debug] [2017-09-03T22:51:53.861Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/grand-overland-website  
+ Sun Sep 03 2017 18:51:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-09-03T22:51:54.080Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-03T22:51:54.081Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/45503364286/clients/_:getWebAppConfig  
+ Sun Sep 03 2017 18:51:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-09-03T22:51:54.385Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
